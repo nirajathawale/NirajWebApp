@@ -17,7 +17,7 @@ namespace WebApplication7.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Home page of Niraj Athawale";
+            ViewBag.Message = "Home page - Niraj Athawale";
 
             return View();
         }
