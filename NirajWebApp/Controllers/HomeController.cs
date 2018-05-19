@@ -9,9 +9,11 @@ namespace WebApplication7.Controllers
 {
     public class HomeController : Controller
     {
+        private const string homePageVisitedMessage = "Home Page Visited";
+
         public ActionResult Index()
         {
-            System.Diagnostics.Trace.WriteLine("Home Page Visited");
+            System.Diagnostics.Trace.WriteLine(homePageVisitedMessage);
             return View();
         }
 
