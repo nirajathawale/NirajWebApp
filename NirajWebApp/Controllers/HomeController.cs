@@ -26,7 +26,7 @@ namespace WebApplication7.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "You reach me on:";
+            ViewBag.Message = "You can reach me at:";
 
             return View();
         }
